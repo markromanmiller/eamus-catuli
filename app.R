@@ -1,4 +1,6 @@
 library(shiny)
+library(tidyverse)
+library(jsonlite)
 
 ui <- fluidPage(
   tableOutput("standings")
